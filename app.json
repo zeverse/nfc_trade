@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "nfc_trade",
+    "scheme": "nfc-trade",
     "slug": "nfc_trade",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +22,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.nfc_trade",
+      "permissions": [
+        "android.permission.NFC"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
